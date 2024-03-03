@@ -14,12 +14,11 @@ const Projects = () => {
                   Front-End Development
               </h2>
               <p className="mt-4 text-gray-600">
-                In this section, I have already uploaded all the personal projects I have made in the field of front-end development. 
-                You can view the live demo, explore, or test them. I hope they can make an impact and help you make a valid decision 
-                to hire me based on my expertise and experiences.
+                You can view my current frontend project here that related to data analytics website. You can view the live demo, 
+                explore, or test it. I hope they can make an impact and help you make a valid decision to hire me based on my expertise and experiences.
               </p>
               <div className="mt-8">
-                  <a href="/frontend" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">View</a>
+                  <a href="https://jember23.github.io/gobeyond/" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">View</a>
               </div>
           </div>
       </div>

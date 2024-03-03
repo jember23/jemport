@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
           <div class="bg-[#010026] p-4 rounded-lg">
               <div class="relative bg-inherit">
-                  <input type="text" id="email" name="Email" class="peer bg-transparent h-10 w-[310px] rounded-lg text-sky-50 placeholder-transparent ring-2 px-2 ring-sky-50 focus:ring-sky-600 focus:outline-none focus:border-rose-600" placeholder="Type your email"/>
+                  <input type="email" id="email" name="Email" class="peer bg-transparent h-10 w-[310px] rounded-lg text-sky-50 placeholder-transparent ring-2 px-2 ring-sky-50 focus:ring-sky-600 focus:outline-none focus:border-rose-600" placeholder="Type your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Enter a valid email address" required/>
                   <label for="email" class="absolute cursor-text left-0 -top-3 text-sm text-gray-500 bg-inherit mx-1 px-1 peer-placeholder-shown:text-base peer-placeholder-shown:text-sky-50 peer-placeholder-shown:top-2 peer-focus:-top-3 peer-focus:text-sky-600 peer-focus:text-sm transition-all">Type your email</label>
               </div>
           </div>
