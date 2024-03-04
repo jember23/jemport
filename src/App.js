@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Projects from "./components/Projects";
 import Fullstack from "./pages/fullstack";
 import Graphic from "./pages/graphicDesigning";
-import {Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
