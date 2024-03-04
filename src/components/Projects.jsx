@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 const Projects = () => {
   return (
@@ -39,7 +40,7 @@ const Projects = () => {
                 to hire me based on my experties and experiences.
               </p>
               <div className="mt-8">
-                  <a href="/fullstack" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">View</a>
+                  <Link to="/fullstack" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">View</Link>
               </div>
           </div>
       </div>
@@ -60,7 +61,7 @@ const Projects = () => {
                 to hire me based on my experties and experiences.
               </p>
               <div className="mt-8">
-                  <a href="/graphicDesigning" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">View</a>
+                  <Link to="/graphicDesigning" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">View</Link>
               </div>
           </div>
       </div>
