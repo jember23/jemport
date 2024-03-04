@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jemport/static/css/main.dd9337c6.css",
-    "main.js": "/jemport/static/js/main.cbd9267d.js",
+    "main.js": "/jemport/static/js/main.f0434a40.js",
     "static/media/Asus TUF Gaming.jpg": "/jemport/static/media/Asus TUF Gaming.af33cb5684b13d61d9fd.jpg",
     "static/media/Asus ROG jpg.jpg": "/jemport/static/media/Asus ROG jpg.b27c126c1cc63a53bcc8.jpg",
     "static/media/Design 1.jpg": "/jemport/static/media/Design 1.b9e8403a4622372044af.jpg",
@@ -30,10 +30,10 @@
     "static/media/html.png": "/jemport/static/media/html.a4fe2539e95720afa25a.png",
     "index.html": "/jemport/index.html",
     "main.dd9337c6.css.map": "/jemport/static/css/main.dd9337c6.css.map",
-    "main.cbd9267d.js.map": "/jemport/static/js/main.cbd9267d.js.map"
+    "main.f0434a40.js.map": "/jemport/static/js/main.f0434a40.js.map"
   },
   "entrypoints": [
     "static/css/main.dd9337c6.css",
-    "static/js/main.cbd9267d.js"
+    "static/js/main.f0434a40.js"
   ]
 }
