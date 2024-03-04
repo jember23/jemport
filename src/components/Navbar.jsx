@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom';
 
 import Logo from '../images/jemLogo.png';
 import {FaBars, FaTimes, FaLinkedin} from 'react-icons/fa';
@@ -11,7 +12,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-[130px] bg-[#010026] text-purple-50 z-20'>
+    <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-[130px] bg-[#010026] text-purple-50 z-20'>
 
         {/* Initial Name Logo */}
         <div>
@@ -24,7 +25,7 @@ const Navbar = () => {
                 <a href='/'>Home</a>
             </li >
             <li className='relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>
-                <a href='/Projects'>Projects</a>
+                <Link to='/Projects'>Projects</Link>
             </li>
             <li className='relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>
                 <a href='/Certs'>Certs</a>
