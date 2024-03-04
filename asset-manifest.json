@@ -1,14 +1,39 @@
 {
   "files": {
     "main.css": "/jemport/static/css/main.dd9337c6.css",
-    "main.js": "/jemport/static/js/main.56dd7e68.js",
+    "main.js": "/jemport/static/js/main.c169e65e.js",
+    "static/media/Asus TUF Gaming.jpg": "/jemport/static/media/Asus TUF Gaming.af33cb5684b13d61d9fd.jpg",
+    "static/media/Asus ROG jpg.jpg": "/jemport/static/media/Asus ROG jpg.b27c126c1cc63a53bcc8.jpg",
+    "static/media/Design 1.jpg": "/jemport/static/media/Design 1.b9e8403a4622372044af.jpg",
+    "static/media/Pager 1.jpg": "/jemport/static/media/Pager 1.fa0a5a618ab5e9410a66.jpg",
+    "static/media/Pager 2.jpg": "/jemport/static/media/Pager 2.3aa598863b5bd970ceb8.jpg",
+    "static/media/Design 2.jpg": "/jemport/static/media/Design 2.9e2ccaf949be9e1d3b9b.jpg",
+    "static/media/Design 4.jpg": "/jemport/static/media/Design 4.e950c7347ef09124032f.jpg",
+    "static/media/Design 3.jpg": "/jemport/static/media/Design 3.ae2a8f105e08e5f4a76a.jpg",
+    "static/media/ASP.png": "/jemport/static/media/ASP.2079905db57d679903d2.png",
+    "static/media/C_Sharp.png": "/jemport/static/media/C_Sharp.924072dc8ce63d2796d7.png",
+    "static/media/adobeAI.png": "/jemport/static/media/adobeAI.f607f21ebe935fdf1e06.png",
+    "static/media/javascript.png": "/jemport/static/media/javascript.73261704676f88feabdc.png",
+    "static/media/Mssql.png": "/jemport/static/media/Mssql.36e1dbf4b669e9557aab.png",
+    "static/media/cyberEssenLogo.png": "/jemport/static/media/cyberEssenLogo.452ce993cdf13bcafe25.png",
+    "static/media/cyberIntroLogo.png": "/jemport/static/media/cyberIntroLogo.b95e14c5f95033c2cac8.png",
+    "static/media/react.png": "/jemport/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/scLogo.png": "/jemport/static/media/scLogo.f7a894e9b2d75b580c5a.png",
     "static/media/jemLogo.png": "/jemport/static/media/jemLogo.42cec39a8314282ba0ef.png",
+    "static/media/azLogo.png": "/jemport/static/media/azLogo.dd49b3c54249c87368c6.png",
+    "static/media/github.png": "/jemport/static/media/github.94831f873767b46cd514.png",
+    "static/media/MTA_DF.png": "/jemport/static/media/MTA_DF.d12d1f582b56766b1444.png",
+    "static/media/MTA_SDF.png": "/jemport/static/media/MTA_SDF.c1cd9d9d302ce5ffab02.png",
+    "static/media/css.png": "/jemport/static/media/css.da8420b22e20af4602ed.png",
+    "static/media/tailwind.png": "/jemport/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/AzureDevOpsLogo.png": "/jemport/static/media/AzureDevOpsLogo.abeb875514a4ca723db6.png",
+    "static/media/html.png": "/jemport/static/media/html.a4fe2539e95720afa25a.png",
     "index.html": "/jemport/index.html",
     "main.dd9337c6.css.map": "/jemport/static/css/main.dd9337c6.css.map",
-    "main.56dd7e68.js.map": "/jemport/static/js/main.56dd7e68.js.map"
+    "main.c169e65e.js.map": "/jemport/static/js/main.c169e65e.js.map"
   },
   "entrypoints": [
     "static/css/main.dd9337c6.css",
-    "static/js/main.56dd7e68.js"
+    "static/js/main.c169e65e.js"
   ]
 }
