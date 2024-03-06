@@ -41,11 +41,11 @@ const Navbar = () => {
 
         {/* Hamburger */}
         <div onClick={handleNav} className='block md:hidden'>
-          {nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20}/>}
+          {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!nav ? 'fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900 bg-[#010026] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+        <ul className={!nav ? 'hidden' : 'fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900 bg-[#010026]'}>
             
             {/* Initial Name Logo */}
             <div className='w-full m-4'>
