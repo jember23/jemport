@@ -68,8 +68,9 @@ const Navbar = () => {
               Github <FaGithub size={30} /></a>
             </li> */}
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-cyan-600'>
-              <a className='flex justify-between items-center w-full text-gray-300' href="/contact">
-              Email<HiOutlineMail size={30} /></a>
+              <button className='flex justify-between items-center w-full text-gray-300'>
+                <Link to='/Contact'>Contact</Link><HiOutlineMail size={30} />
+              </button>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
               <a className='flex justify-between items-center w-full text-gray-300' href="https://drive.google.com/file/d/1xx5FmYCrXqKP23gmopLa9Rfx7Z5klgI2/view?usp=sharing">
@@ -77,7 +78,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
     </div>
   )
 }
