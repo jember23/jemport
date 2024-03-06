@@ -2,17 +2,21 @@ import React, {useState} from 'react'
 import {Link} from 'react-router-dom';
 
 import Logo from '../images/jemLogo.png';
-import {FaBars, FaTimes, FaLinkedin} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
-    const handleClick = () => setNav(!nav)
+
+    const handleNav = () => {
+      setNav(!nav);
+    };
 
   return (
-    <div name='navbar' className='fixed w-full h-[80px] flex justify-between items-center px-[130px] bg-[#010026] text-purple-50 z-20'>
+    <div name='navbar' className='flex fixed justify-between items-center h-24 w-full px-[80px] bg-[#010026] text-purple-50 z-20'>
 
         {/* Initial Name Logo */}
         <div>
@@ -36,22 +40,28 @@ const Navbar = () => {
         </ul>
 
         {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10'>
-           {!nav ? <FaBars /> : <FaTimes />}
+        <div onClick={handleNav} className='block md:hidden'>
+          {nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20}/>}
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#010026] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>
+        <ul className={!nav ? 'fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900 bg-[#010026] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+            
+            {/* Initial Name Logo */}
+            <div className='w-full m-4'>
+                <img src={Logo} alt="Logo" style={{width: '45px'}}/>
+            </div>
+            
+            <li className='p-4 border-b border-gray-600'>
                 <Link to='/'>Home</Link>
             </li>
-            <li className='py-6 text-4xl relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>
+            <li className='p-4 border-b border-gray-600'>
                 <Link to='/Projects'>Projects</Link>
             </li>
-            <li className='py-6 text-4xl relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>
+            <li className='p-4 border-b border-gray-600'>
                 <Link to='/Certs'>Certs</Link>
             </li>
-            <li className='py-6 text-4xl relative hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>
+            <li className='p-4 border-b border-gray-600'>
                 <Link to='/Contact'>Contact</Link>
             </li>
         </ul>
